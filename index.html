@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hi Princess</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Dancing Script -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating photos -->
+  <img src="photos/1.jpg" class="float-img one">
+  <img src="photos/2.png" class="float-img two">
+  <img src="photos/3.png" class="float-img three">
+  <img src="photos/4.JPG" class="float-img four">
+
+  <!-- Popup image (used dynamically) -->
+  <img id="popupImg" class="popup-img hidden">
+
+  <!-- Section 1 -->
+  <section class="screen reveal">
+    <h1 class="big">HI PRINCESS </h1>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="screen reveal">
+    <h2>Your whiteboy wants to ask…</h2>
+  </section>
+
+  <!-- Section 3 -->
+  <section class="screen reveal">
+    <h2>Will you be my Valentine? 💘</h2>
+
+    <div class="buttons">
+      <button class="yes" onclick="sayYes()">Yes 💖</button>
+      <button class="no" id="noBtn">No 😒</button>
+    </div>
+
+    <p id="yesText" class="hidden">
+      😛😛😛 
+      Happy Valentine’s Day babyyyyyy.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
